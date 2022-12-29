@@ -156,7 +156,7 @@ try:
     gif_runner = st.image('./static/loading_plate.gif',width = 350)
 
     vehicle_reg_no = vehicle_reg_no.strip()
-    username = "meemo1" #insert your user name
+    username = "meemo2" #insert your user name
     url = "http://www.regcheck.org.uk/api/reg.asmx/CheckIndia?RegistrationNumber=" + vehicle_reg_no + "&username="+username
     url=url.replace(" ","%20")
 
