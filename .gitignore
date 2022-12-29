@@ -50,7 +50,10 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
-*.png
+data/
+demo_videos.
+exp/
+final_plate
 *.mp4
 # Translations
 *.mo
@@ -61,7 +64,6 @@ coverage.xml
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
-*.jpg
 *.mp4
 
 # Flask stuff:
